@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import allMessages from "C:/portfolio/src/components/Chat/allMessages.jsx";
+import allMessages from "/src/components/Chat/allMessages.jsx";
 import getCurrentTime from "../utils/timeUtil";
 
 function useChatMessages(delay = 3000) {

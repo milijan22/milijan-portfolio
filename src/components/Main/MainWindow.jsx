@@ -36,13 +36,13 @@ function MainWindow() {
     },
     {
       title: "HTEC Group - Junior Infrastructure Planner",
-      time: "Hired 2023",
+      time: "2023",
       description: "FTTH Planning, QGIS, AutoCAD",
     },
     {
-      title: "HTEC Group - Junior Software Developer",
-      time: "PRESENT",
-      description: "Frontend development, React",
+      title: "HTEC Group - Internal Capacity & Learning team",
+      time: "2025",
+      description: "Web development",
     },
   ];
 
@@ -109,9 +109,11 @@ function MainWindow() {
           ))}
         </div>
         <div className="flex items-center gap-6 justify-center mt-20 ">
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
           <button className="cursor-pointer mb-2 px-6 py-2 border-2 border-cyan-700 text-cyan-700 hover:bg-cyan-700 hover:text-black rounded-3xl">
             RESUME
           </button>
+          </a>
           <section className="mb-1 text-gray-500 hover:underline cursor-pointer flex items-center gap-2 text-2xl">
             <a href="mailto:milijan99knezevic@gmail.com">MAIL</a>{" "}
             <FontAwesomeIcon icon={faEnvelope} />
