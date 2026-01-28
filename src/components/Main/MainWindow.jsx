@@ -15,8 +15,8 @@ function MainWindow() {
     { icon: "url('/css.svg')", name: "CSS" },
     { icon: "url('/js.svg')", name: "JavaScript" },
     { icon: "url('/react.svg')", name: "React" },
-    { icon: "url('/tailwind.svg')", name: "Tailwind" },
-    { icon: "url('/mongodb.svg')", name: "Mongo DB" },
+    { icon: "url('/nextjs.svg')", name: "Next.js" },
+    { icon: "url('/typescript.svg')", name: "Typescript" },
   ];
 
   const socialMediaList = [
